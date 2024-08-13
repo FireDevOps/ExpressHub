@@ -8,11 +8,11 @@ namespace FluentHub.Octokit
 {
 	public class App
 	{
-		public static ProductHeaderValue ProductInformation { get; set; } = new ProductHeaderValue("FluentHub");
+		public static ProductHeaderValue ProductInformation { get; set; } = new ProductHeaderValue("ExpressHub");
 		public static Connection Connection { get; set; }
 
 		public static OctokitV3.GitHubClient Client { get; set; }
-			= new OctokitV3.GitHubClient(new OctokitV3.ProductHeaderValue("FluentHub"));
+			= new OctokitV3.GitHubClient(new OctokitV3.ProductHeaderValue("ExpressHub"));
 
 
 		public static GraphQLHttpClient GraphQLHttpClient { get; set; }

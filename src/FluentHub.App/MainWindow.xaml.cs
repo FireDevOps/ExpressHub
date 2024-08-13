@@ -34,7 +34,7 @@ namespace FluentHub.App
 		private void EnsureEarlyWindow()
 		{
 			// Initialize the Window information
-			AppWindow.Title = "FluentHub";
+			AppWindow.Title = "ExpressHub";
 			AppWindow.SetIcon(Path.Combine(Windows.ApplicationModel.Package.Current.InstalledLocation.Path, "Assets/AppTiles/Release/StoreLogo.scale-400.png"));
 			AppWindow.TitleBar.ExtendsContentIntoTitleBar = true;
 			AppWindow.TitleBar.ButtonBackgroundColor = Colors.Transparent;
