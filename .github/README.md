@@ -2,7 +2,7 @@
   <img width="128" align="center" src="../assets/fluenthub.png" />
 </p>
 <h1 align="center">
-  FluentHub
+  ExpressHub
 </h1>
 <p align="center">
   <a title="Microsoft Store" target="_blank" href="https://apps.microsoft.com/store/detail/fluenthub/9nkb9hx8rjz3">
@@ -14,14 +14,14 @@
     </picture></a>
 </p>
 
-FluentHub is the stylish yet powerful GitHub client for Windows, which enpowers development experience and follows Microsoft Design Language.
+ExpressHub is the stylish yet powerful GitHub client for Windows, which enpowers development experience and follows Microsoft Design Language.
 
 - **Modern UI:** designed with Fluent Design and built on WinAppSdk/WinUI
 - **Multitasking:** let's do multitasking with tabs, you can switch tabs without losing data
 - **Powerful page navigation:** navigation can be performed like browsers without losing navigation history
 - **Mutation:** perform any kind of modification on GitHub, the app supports as far as GitHub API supports
 
-## 🎁 Getting started with FluentHub
+## 🎁 Getting started with ExpressHub
 
 Your Windows must be Windows 10 or 11 to run FluentHub
 
@@ -31,28 +31,28 @@ This is the preferred installation method. It allows you to always be on the lat
 
 ### Via GitHub
 
-Released builds can be manually downloaded from this [repository's releases page](https://github.com/FluentHub/FluentHub/releases).
+Released builds can be manually downloaded from this [repository's releases page](https://github.com/FireDevOps/ExpressHub/releases).
 
-Download the `FluentHub_<versionNumber>.msixbundle` file from the `Assets` section. In order to install the app, you can simply double-click on the .msixbundle file, and the app installer should automatically run. If that fails for any reason, you can try the following command with a PowerShell prompt:
+Download the `ExpressHub_<versionNumber>.msixbundle` file from the `Assets` section. In order to install the app, you can simply double-click on the .msixbundle file, and the app installer should automatically run. If that fails for any reason, you can try the following command with a PowerShell prompt:
 
 ```powershell
 # NOTE: If you are using PowerShell 7+, please run
 #   Import-Module Appx -UseWindowsPowerShell
 # before using Add-AppxPackage.
 
-Add-AppxPackage FluentHub_<versionNumber>.msixbundle
+Add-AppxPackage ExpressHub_<versionNumber>.msixbundle
 ```
 
 ## Screenshots
 
 **Home page**
-![image](https://github.com/0x5bfa/FluentHub/assets/62196528/a31bdace-8700-4a6a-83e9-1cdc52955c4f)
+![image](https://github.com/FireDevOps/ExpressHub/assets/62196528/a31bdace-8700-4a6a-83e9-1cdc52955c4f)
 
 **PR page**
-![image](https://github.com/0x5bfa/FluentHub/assets/62196528/a29c4ef8-1fe5-47c3-be03-6afebe02c55b)
+![image](https://github.com/FireDevOps/ExpressHub/assets/62196528/a29c4ef8-1fe5-47c3-be03-6afebe02c55b)
 
 **User profile page**
-![image](https://github.com/0x5bfa/FluentHub/assets/62196528/35ffbe36-00d3-4d04-9019-67307febfc95)
+![image](https://github.com/FireDevOps/ExpressHub/assets/62196528/35ffbe36-00d3-4d04-9019-67307febfc95)
 
 ## Building the Code
 
@@ -68,7 +68,7 @@ Add-AppxPackage FluentHub_<versionNumber>.msixbundle
 ### 1. Clone the repository
 
 ```git
-git clone https://github.com/FluentHub/FluentHub
+git clone https://github.com/FireDevOps/ExpressHub
 ```
 
 ### 2. Prepare OAuth credentials
@@ -81,14 +81,14 @@ See [the documentation](docs/credentials.md).
 ### 3. Build the project
 
 - Open `FluentHub.sln`.
-- Hit 'Set as Startup item' on `FluentHub.Package` in the Solution Explorer.
-- Build with `Debug`, `x64`, `FluentHub.Package`.
+- Hit 'Set as Startup item' on `ExprssHub.Package` in the Solution Explorer.
+- Build with `Debug`, `x64`, `ExpressHub.Package`.
 
 ## Contributing
 
 There are multiple ways to participate in the community:
 
-- [Submit bugs and feature requests](https://github.com/FluentHub/FluentHub/issues/new/choose).
+- [Submit bugs and feature requests](https://github.com/FireDevOps/ExpressHub/issues/new/choose).
 - Review [the documentation](docs/code-style.md) and make pull requests for anything from typos to additional and new idea
 - Review source code changes
 
@@ -97,19 +97,19 @@ If you are interested in fixing issues and contributing directly to the code bas
 - [How to build and run from source](docs/)
 - The development workflow, including debugging and running tests
 - Coding guidelines
-- [Submitting pull requests](https://github.com/FluentHub/FluentHub/pulls)
-- [Finding an issue to work on](https://github.com/FluentHub/FluentHub/issues/)
-- [Contributing to translations on Crowdin](https://crowdin.com/project/fluenthub)
+- [Submitting pull requests](https://github.com/FireDevOps/ExpressHub/pulls)
+- [Finding an issue to work on](https://github.com/FireDevOps/ExpressHub/issues/)
+- [Contributing to translations on Crowdin](https://crowdin.com/project/ExpressHub/)
 
-<a href="https://crowdin.com/project/fluenthub" rel="nofollow">
+<a href="https://crowdin.com/project/ExpressHub" rel="nofollow">
   <img style="width:140;height:40" src="https://badges.crowdin.net/badge/dark/crowdin-on-light.png" /></a>
 
 ## Feedback
 
-- [Request a new feature](https://github.com/FluentHub/FluentHub/pulls)
+- [Request a new feature](https://github.com/FireDevOps/ExpressHub/pulls)
 - Upvote popular feature requests
-- [File an issue](https://github.com/FluentHub/FluentHub/issues/new/choose)
-- Join [our Discord](https://discord.gg/8KtRkjq2Q4) and let us know what you think
+- [File an issue](https://github.com/FireDevOps/ExpressHub/issues/new/choose)
+- Join [our Discord](https://discord.gg/) and let us know what you think
 
 [![](https://dcbadge.vercel.app/api/server/8KtRkjq2Q4?style=flat)](https://discord.gg/8KtRkjq2Q4)
 
