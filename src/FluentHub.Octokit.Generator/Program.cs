@@ -23,10 +23,10 @@ namespace FluentHub.Octokit.ModelGenerator
 				StringBuilder message = new(1024);
 
 				message.AppendLine();
-				message.AppendLine("Copyright (c) 2022-2024 0x5BFA");
+				message.AppendLine("Copyright (c) 2022-2024 Broduer");
 				message.AppendLine("Licensed under the MIT License. See the LICENSE.");
 				message.AppendLine();
-				message.AppendLine("FluentHub Octokit Model Generator");
+				message.AppendLine("ExpressHub Octokit Model Generator");
 				message.AppendLine("--------------------------------------------------");
 				message.AppendLine();
 				message.AppendLine("An error occurred in parsing command line arguments.");

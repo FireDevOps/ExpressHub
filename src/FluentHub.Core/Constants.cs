@@ -7,17 +7,17 @@ namespace FluentHub.Core
 	{
 		public static class App
 		{
-			public const string AppName = "FluentHub";
+			public const string AppName = "ExpressHub";
 			public const string AppSuffix = "DEV";
 			public const string AppDescription = "A fluent GitHub client for Windows";
 		}
 
 		public static class GitHub
 		{
-			public const string DocumentationUrl = @"https://github.com/0x5bfa/FluentHub/tree/main/docs";
-			public const string ContributorUrl = @"https://github.com/0x5BFA/FluentHub/graphs/contributors";
-			public const string FeedbackUrl = @"https://github.com/0x5BFA/FluentHub/issues/new/choose";
-			public const string ReleaseNotesUrl = @"https://github.com/0x5BFA/FluentHub/releases";
+			public const string DocumentationUrl = @"https://github.com/FireDevOps/ExpressHub/tree/main/docs";
+			public const string ContributorUrl = @"https://github.com/FireDevOps/ExpressHub/graphs/contributors";
+			public const string FeedbackUrl = @"https://github.com/FireDevOps/ExpressHub/issues/new/choose";
+			public const string ReleaseNotesUrl = @"https://github.com/FireDevOps/ExpressHub/releases";
 		}
 
 		public static class ResourcePaths
