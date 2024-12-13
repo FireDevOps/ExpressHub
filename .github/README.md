@@ -1,6 +1,14 @@
 <p align="center">
   <img alt="FluentHub hero image" src="./assets/header.png" />
 </p>
+<<<<<<< Updated upstream
+=======
+<h1 align="center">
+  ExpressHub
+</h1>
+<p align="center">
+  <a title="Microsoft Store" target="_blank" href="https://apps.microsoft.com/store/detail/fluenthub/9nkb9hx8rjz3">
+>>>>>>> Stashed changes
 
 <p align="center">
   <a style="text-decoration:none" href="https://github.com/0x5bfa/FluentHub/actions/workflows/ci.yml">
@@ -18,17 +26,22 @@
     </picture></a>
 </p>
 
-FluentHub is the stylish yet powerful GitHub client for Windows, which enpowers development experience and follows Microsoft Design Language.
+ExpressHub is the stylish yet powerful GitHub client for Windows, which enpowers development experience and follows Microsoft Design Language.
 
 - **FluentHub UI:** designed with FluentUI and built on WinAppSdk/WinUI3
 - **Multitasking:** with FluentHub you can multi-task with ease with tab support built-in to the app
 - **Powerful page navigation:** easily navigate through pages without losing history or progress
 - **Just like GitHub:** perform all of your everyday tasks on GitHub such as creating issues and pull requests with built-in API mutation
 
+<<<<<<< Updated upstream
 ## Contributing to FluentHub
+=======
+## 🎁 Getting started with ExpressHub
+>>>>>>> Stashed changes
 
 We welcome community contributions. You can [file an issue](https://github.com/FluentHub/FluentHub/issues/new/choos), propose [your changes](https://github.com/FluentHub/FluentHub/pulls), join [our Discord channel](https://dsc.gg/fluenthub) to connect with us. We especially appreciate help with translating the app [on Crowdin](https://crowdin.com/project/fluenthub)—your contributions make a big difference in reaching a wider audience!
 
+<<<<<<< Updated upstream
 Looking for a place to start? Check out [the task board](https://github.com/users/0x5bfa/projects/7/views/2), where you can sort tasks by size and priority.
 
 ## Screenshots
@@ -38,6 +51,36 @@ Looking for a place to start? Check out [the task board](https://github.com/user
 Your dashboard|Your repos|User profile page
 ---|---|---
 ![Dashboard page screenshot](./assets/screenshots/page-dashboard.png)|![Repo page screenshot](./assets/screenshots/page-repo.png)|![User page screenshot](./assets/screenshots/page-user.png)
+=======
+### Via Microsoft Store
+
+This is the preferred installation method. It allows you to always be on the latest version when we release new builds via automatic updates.
+
+### Via GitHub
+
+Released builds can be manually downloaded from this [repository's releases page](https://github.com/FireDevOps/ExpressHub/releases).
+
+Download the `ExpressHub_<versionNumber>.msixbundle` file from the `Assets` section. In order to install the app, you can simply double-click on the .msixbundle file, and the app installer should automatically run. If that fails for any reason, you can try the following command with a PowerShell prompt:
+
+```powershell
+# NOTE: If you are using PowerShell 7+, please run
+#   Import-Module Appx -UseWindowsPowerShell
+# before using Add-AppxPackage.
+
+Add-AppxPackage ExpressHub_<versionNumber>.msixbundle
+```
+
+## Screenshots
+
+**Home page**
+![image](https://github.com/FireDevOps/ExpressHub/assets/62196528/a31bdace-8700-4a6a-83e9-1cdc52955c4f)
+
+**PR page**
+![image](https://github.com/FireDevOps/ExpressHub/assets/62196528/a29c4ef8-1fe5-47c3-be03-6afebe02c55b)
+
+**User profile page**
+![image](https://github.com/FireDevOps/ExpressHub/assets/62196528/35ffbe36-00d3-4d04-9019-67307febfc95)
+>>>>>>> Stashed changes
 
 ## Building the Code
 
@@ -46,8 +89,15 @@ Your dashboard|Your repos|User profile page
 - Windows 10 (Build 10.0.19041.0) or newer with Developer Mode enabled in the Windows Settings
 - [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) with [Windows App SDK (version 10.0.22621.0)](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/) and .NET 8 SDK (.NET Desktop Development workload)
 
+<<<<<<< Updated upstream
 ```
 git clone https://github.com/FluentHub/FluentHub
+=======
+### 1. Clone the repository
+
+```git
+git clone https://github.com/FireDevOps/ExpressHub
+>>>>>>> Stashed changes
 ```
 
 ### 2. Prepare OAuth credentials
@@ -60,9 +110,41 @@ See [the documentation](../docs/credentials.md).
 ### 3. Build the project
 
 - Open `FluentHub.sln`.
-- Hit 'Set as Startup item' on `FluentHub.Package` in the Solution Explorer.
-- Build with `Debug`, `x64`, `FluentHub.Package`.
+- Hit 'Set as Startup item' on `ExprssHub.Package` in the Solution Explorer.
+- Build with `Debug`, `x64`, `ExpressHub.Package`.
 
+<<<<<<< Updated upstream
+=======
+## Contributing
+
+There are multiple ways to participate in the community:
+
+- [Submit bugs and feature requests](https://github.com/FireDevOps/ExpressHub/issues/new/choose).
+- Review [the documentation](docs/code-style.md) and make pull requests for anything from typos to additional and new idea
+- Review source code changes
+
+If you are interested in fixing issues and contributing directly to the code base, please refer to the [documentation](docs/), which covers the following:
+
+- [How to build and run from source](docs/)
+- The development workflow, including debugging and running tests
+- Coding guidelines
+- [Submitting pull requests](https://github.com/FireDevOps/ExpressHub/pulls)
+- [Finding an issue to work on](https://github.com/FireDevOps/ExpressHub/issues/)
+- [Contributing to translations on Crowdin](https://crowdin.com/project/ExpressHub/)
+
+<a href="https://crowdin.com/project/ExpressHub" rel="nofollow">
+  <img style="width:140;height:40" src="https://badges.crowdin.net/badge/dark/crowdin-on-light.png" /></a>
+
+## Feedback
+
+- [Request a new feature](https://github.com/FireDevOps/ExpressHub/pulls)
+- Upvote popular feature requests
+- [File an issue](https://github.com/FireDevOps/ExpressHub/issues/new/choose)
+- Join [our Discord](https://discord.gg/) and let us know what you think
+
+[![](https://dcbadge.vercel.app/api/server/8KtRkjq2Q4?style=flat)](https://discord.gg/8KtRkjq2Q4)
+
+>>>>>>> Stashed changes
 ## Credit
 
 - Some application icons were created by [Icons8](https://github.com/icons8).
